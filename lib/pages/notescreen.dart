@@ -7,7 +7,7 @@ class NoteScreen extends StatelessWidget {
     final String docID;
   final TextEditingController textControllers = TextEditingController();
 
-NoteScreen({Key? key, required this.appBarTitle, required this.docID}) : super(key: key);
+NoteScreen({super.key, required this.appBarTitle, required this.docID});
 
   @override
   Widget build(BuildContext context) {
